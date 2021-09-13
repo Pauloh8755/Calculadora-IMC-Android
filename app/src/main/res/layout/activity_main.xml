@@ -17,7 +17,6 @@
         android:src="@drawable/exercicios"
         android:layout_gravity="center"
 
-
     />
 
     <TextView
@@ -26,7 +25,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/montserrat"
         android:text="Índice de Massa Corporal"
-        android:textColor="#5C5C5C"
+        android:textColor="#679A93"
         android:textSize="24sp" />
     <EditText
         android:id="@+id/edit_peso"
@@ -41,7 +40,7 @@
         android:textColor="#5C5C5C"
         android:drawableStart="@drawable/ic_baseline_accessibility_new_24"
         android:drawableTint="#494949"
-        android:drawablePadding="16dp"
+        android:drawablePadding="5dp"
         />
     <EditText
         android:id="@+id/edit_altura"
@@ -50,13 +49,13 @@
         android:background="@drawable/edit_text_background"
         android:layout_marginTop="20dp"
         android:padding="5dp"
-        android:hint="Digite sua altura"
+        android:hint="Qual a sua altura?"
         android:inputType="numberDecimal"
         android:paddingStart="10dp"
         android:textColor="#5C5C5C"
         android:drawableStart="@drawable/ic_baseline_height_24"
         android:drawableTint="#494949"
-        android:drawablePadding="16dp"
+        android:drawablePadding="5dp"
         />
     <Button
         android:id="@+id/button_calcular"
@@ -72,13 +71,13 @@
         />
     <TextView
         android:id="@+id/text_view_resultado"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:background="@drawable/text_view_resultado"
-        android:text="22"
-        android:textSize="86dp"
+        android:textSize="76dp"
+        android:text="0"
         android:gravity="center"
         android:fontFamily="sans-serif-light"
 
